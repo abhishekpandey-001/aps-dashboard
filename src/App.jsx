@@ -6,7 +6,7 @@ import {
 import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import ScanDetail from "./pages/ScanDetail";
-
+import ComingSoon from "./pages/ComingSoon";
 import { Toaster } from 'react-hot-toast';
 
 const router = createBrowserRouter([
@@ -26,6 +26,7 @@ const router = createBrowserRouter([
     path: "/scan/:id",
     element: <ScanDetail />,
   },
+  { path: "/comingsoon", element: <ComingSoon /> },
 ]);
 
 function App() {
