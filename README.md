@@ -1,16 +1,47 @@
-# React + Vite
+# APS Security Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend implementation of the dashboard where you can see your data being visualized and mapped in a modern dashboard style type. You also get a smoooth toggle for the dark and light mode
 
-Currently, two official plugins are available:
+## Tech Stack Used
+- React (Vite): As a frontend framework
+- Tailwind CSS: For the styling purpose
+- React Router DOM: For the smooth navigation between the pages and components
+- React Hot Toast: It adds interactivity to the buttons
+- Lucide React: Used this for using react lucide icons
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
+1. Clone the repo
+   git clone https://github.com/abhishekpandey-001/aps-dashboard
 
-## React Compiler
+2. Install dependencies
+   npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Run the dev server
+   npm run dev
 
-## Expanding the ESLint configuration
+4. Open the localhost in your system in your browser
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Login page with navigation to Dashboard content with data
+- Dashboard with navbar, table, and cards for sevirity display
+- Active Scan Detail with live console and finding log
+- Smooth light and dark mode toggle
+- Toast notifications on button clicks to add little interaction
+- Created mock data for all the screens
+- Also, search functioanlity in the search box, you can search for selected scan names there
+- Scan section with progress bar, live scan console, and finidng logs section
+- Also a small footer to make the UI look better
+
+## Images for the UI
+### Login/SignUp Page
+![alt text](image-2.png)
+
+### Dashboard
+![alt text](image.png)
+
+### Scans
+![alt text](image-1.png)
+
+## Known Limitations
+- Mobile responsiveness is partially implemented
+- No real backend or authentication
